@@ -1,0 +1,28 @@
+{
+  "critical_points": [
+    {
+      "id": 1,
+      "function": "linear_search",
+      "risk": "validarea tipului parametrului v",
+      "reason": "Daca parametrul v nu este lista, functia nu poate respecta specificatia."
+    },
+    {
+      "id": 2,
+      "function": "linear_search",
+      "risk": "validarea lungimii listei",
+      "reason": "Specificatia impune ca lista sa aiba exact 5 elemente."
+    },
+    {
+      "id": 3,
+      "function": "linear_search",
+      "risk": "returnarea primei aparitii",
+      "reason": "Daca key apare de mai multe ori, functia trebuie sa intoarca primul indice."
+    },
+    {
+      "id": 4,
+      "function": "linear_search",
+      "risk": "cazul in care key nu exista",
+      "reason": "Functia trebuie sa returneze -1 cand valoarea cautata lipseste."
+    }
+  ]
+}
